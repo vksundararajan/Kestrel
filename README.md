@@ -41,7 +41,7 @@ A cybersecurity research assistant built using Retrieval-Augmented Generation (R
 
 ### Installation
 ```
-git clone https://github.com/vksundararajan/Kestrel.git
+git clone https://github.com/vgnshwar/Kestrel.git
 cd Kestrel
 python3 -m venv .venv
 source venv/bin/activate
@@ -59,7 +59,7 @@ python code/to_llm.py
 
 > Explain the full TLS 1.3 handshake exchange (messages and purpose) and show how a server implements key update. Cite sources.
 
-[Kestrel](https://github.com/vksundararajan/Kestrel) first asks the user to choose a reasoning mode like CoT (Chain of Thought), ReAct, Self-Ask, or simply press Enter to continue without selecting. The user provides their query. Kestrel fetches the most relevant documents from the indexed vector database. The retrieved documents are combined with the chosen reasoning instructions and the system prompt. The complete prompt is sent to the LLM, which produces a grounded, finite answer.
+[Kestrel](https://github.com/vgnshwar/Kestrel) first asks the user to choose a reasoning mode like CoT (Chain of Thought), ReAct, Self-Ask, or simply press Enter to continue without selecting. The user provides their query. Kestrel fetches the most relevant documents from the indexed vector database. The retrieved documents are combined with the chosen reasoning instructions and the system prompt. The complete prompt is sent to the LLM, which produces a grounded, finite answer.
 
 ### Roadmap
 - Add support for multiple vector DBs (FAISS, Pinecone, Weaviate).
